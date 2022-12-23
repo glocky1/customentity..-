@@ -4,8 +4,8 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 -- Create entity
 local entityTable = Spawner.createEntity({
     CustomName = "Template Entity", -- Custom name of your entity
-    Model = "https://github.com/RegularVynixu/Utilities/blob/main/Doors%20Entity%20Spawner/Models/Rush.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-    Speed = 100, -- Percentage, 100 = default Rush speed
+    Model = "rbxassetid//:11896018420", -- Can be GitHub file or rbxassetid
+    Speed = 150, -- Percentage, 100 = default Rush speed
     DelayTime = 2, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
